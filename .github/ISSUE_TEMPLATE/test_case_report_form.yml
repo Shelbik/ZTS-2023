@@ -74,17 +74,7 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
-
-# radiobuttons if test passed|failed|not executed
-  - type: radiobuttons
-    id: test-result
-    attributes:
-      label: Test Result
-      description: Please select the test result.
-      options:
-        - label: Passed
-        - label: Failed
-        - label: Not executed
+  
 
 
   - type: markdown
