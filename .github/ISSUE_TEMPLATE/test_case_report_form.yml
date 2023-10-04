@@ -11,17 +11,17 @@ body:
         ## Test Case Report
         Please fill out the following form to report a test case.
 
-# contact
+  # contact
   - type: input
     id: contact
     attributes:
       label: Contact Details
-      description: In case we won't be able to contact you on GitHub, please provide us with an email address or other contact details. 
+      description: In case we won't be able to contact you on GitHub, please provide us with an email address or other contact details.
       placeholder: ex. email@example.com
     validations:
       required: false
 
-# priority
+  # priority
   - type: dropdown
     id: priority
     attributes:
@@ -31,8 +31,8 @@ body:
         - Low
         - Medium
         - High
-  
-# description
+
+  # description
   - type: textarea
     id: description
     attributes:
@@ -43,7 +43,7 @@ body:
     validations:
       required: true
 
-# expected result
+  # expected result
   - type: textarea
     id: expected-result
     attributes:
@@ -53,7 +53,7 @@ body:
     validations:
       required: true
 
-# actual result
+  # actual result
   - type: textarea
     id: actual-result
     attributes:
@@ -64,7 +64,7 @@ body:
     validations:
       required: true
 
-# steps to reproduce
+  # steps to reproduce
   - type: textarea
     id: steps-to-reproduce
     attributes:
@@ -74,7 +74,7 @@ body:
     validations:
       required: true
 
-# checkboxes if test passed|failed|not executed 
+  # checkboxes if test passed|failed|not executed
   - type: checkboxes
     id: test-status
     attributes:
@@ -88,13 +88,16 @@ body:
         - label: Not executed
           required: false
 
-# attachments
-  - type: markdown
-    attributes:
-      value: |
-        ### Attachments
-        Please attach any relevant files. Screenshots or captures of the bug are very helpful.
-  
+  # attachments
+  - type: textarea
+  id: attachments
+  attributes:
+    label: Attachments
+    description: Please attach any relevant files.
+    placeholder: Paste a link to the file here.
+  validations:
+    required: false
+
 
 
   - type: markdown
