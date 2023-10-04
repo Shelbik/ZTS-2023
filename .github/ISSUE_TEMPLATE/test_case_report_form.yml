@@ -74,6 +74,20 @@ body:
       placeholder: Tell us what you see!
     validations:
       required: true
+
+# checkboxes if test passed|failed|not executed 
+  - type: checkboxes
+    id: test-status
+    attributes:
+      label: Test Status
+      description: Please select the status of the test case.
+      options:
+        - label: Passed
+          required: false
+        - label: Failed
+          required: false
+        - label: Not executed
+          required: false
   
 
 
