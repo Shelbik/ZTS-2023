@@ -1,22 +1,15 @@
-name: Test Case Report
-description: Test case report form for bug reports
-title: ""
-labels: [ ]
-projects: []
-assignees: [ ]
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
+assignees:
+  - octocat
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact_phone
-    attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: true
   - type: input
     id: contact
     attributes:
@@ -24,7 +17,7 @@ body:
       description: How can we get in touch with you if we need more info?
       placeholder: ex. email@example.com
     validations:
-      required: true
+      required: false
   - type: textarea
     id: what-happened
     attributes:
