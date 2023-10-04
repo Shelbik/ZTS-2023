@@ -90,21 +90,20 @@ body:
 
   # attachments
   - type: textarea
-  id: attachments
-  attributes:
-    label: Attachments
-    description: Please attach any relevant files.
-    placeholder: Paste a link to the file here.
-  validations:
-    required: false
+    id: attachments
+    attributes:
+      label: Attachments
+      description: Please attach any relevant files. Screenshots, videos, logs, etc.
+      placeholder: Drag and drop files here or click to upload.
+    validations:
+      required: false
 
 
 
   - type: markdown
     attributes:
       value: |
-        # OLD DOWN THERE ⬇️⬇️⬇️⬇️⬇️⬇️⬇️
-
+        # OLD DOWN THERE 🥰 ⬇️⬇️⬇️⬇️⬇️⬇️⬇️💀☠️👻👻👻👻👽👽🎉🌠🌠
 
   - type: textarea
     id: what-happened
