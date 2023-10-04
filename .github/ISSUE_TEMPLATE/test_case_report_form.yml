@@ -32,6 +32,38 @@ body:
         - Medium
         - High
   
+# description
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Please describe the test case you want to report.
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+
+# expected result
+  - type: textarea
+    id: expected-result
+    attributes:
+      label: Expected Result
+      description: Please describe the expected result of the test case.
+      placeholder: Tell us what you see!
+      value: "A bug should not happened!"
+    validations:
+      required: true
+
+# actual result
+  - type: textarea
+    id: actual-result
+    attributes:
+      label: Actual Result
+      description: Please describe the actual result of the test case.
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
 
   - type: textarea
     id: what-happened
