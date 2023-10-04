@@ -87,6 +87,15 @@ body:
           required: false
         - label: Not executed
           required: false
+
+# attachments
+  - type: attachments
+    id: attachments
+    attributes:
+      label: Attachments
+      description: Please attach any relevant files. Screenshots or captures of the bug are very helpful.
+      multiple: true
+      required: false
   
 
 
