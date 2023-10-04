@@ -50,7 +50,6 @@ body:
       label: Expected Result
       description: Please describe the expected result of the test case.
       placeholder: Tell us what you see!
-      value: ""
     validations:
       required: true
 
