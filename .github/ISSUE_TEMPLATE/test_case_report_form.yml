@@ -1,15 +1,15 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - octocat
+name: Test case report
+description: Create a test case report
+title: "[Test Case] "
+labels: ["test-case"]
+projects: []
+assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        ## Test Case Report
+        Please fill out the following form to report a test case.
 
 # contact
   - type: input
