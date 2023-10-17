@@ -1,7 +1,7 @@
 name: Test case report
 description: Create a test case report
 title: "[Test Case] "
-labels: ["test-case"]
+labels: ["test-case-report"]
 projects: []
 assignees: []
 body:
@@ -22,7 +22,7 @@ body:
       required: true
 
   # depended on
-  - type: textarea
+  - type: input
     id: depended-on
     attributes:
       label: Depended on another test case
