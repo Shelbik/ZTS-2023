@@ -7,3 +7,6 @@ Tento repozitár bol založený za účelom kolektívnej práce na predmete Zák
 - Oliver Mrovčák
 - Vitalii Martiniuk
 - Daniel Dziaba
+
+## Prístup k repozitáru
+[Repozitár](https://github.com/jancikos/zts) je súkromný, no po vzájomnej dohode s vyučujúcim je možné pridať ďalších členov.
