@@ -10,3 +10,6 @@ Tento repozitár bol založený za účelom kolektívnej práce na predmete Zák
 
 ## Prístup k repozitáru
 [Repozitár](https://github.com/jancikos/zts) je súkromný, no po vzájomnej dohode s vyučujúcim je možné pridať ďalších členov.
+
+## Zadanie SP Kostor
+V súbore [zadanie_sp_kostor.md](zadanie_sp_kostor.md) sa nachádza zadanie pre moju semestrálnu prácu.
